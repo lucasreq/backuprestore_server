@@ -31,7 +31,7 @@ et ensuite installer borgbackup
 pip3.6 install borgbackup
 ```
 
-##utilisation
+## Utilisation
 
 1. On commence par initier un repo
     
