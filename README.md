@@ -1,8 +1,8 @@
 # Tuto utilisation BORGbackup centos
 
-borgbackup est un logitiel de sauvegarde qui gère la [déduplication][https://fr.wikipedia.org/wiki/D%C3%A9duplication]. Il supporte le chiffrement et la compression.
+borgbackup est un logitiel de sauvegarde qui gère la [déduplication](https://fr.wikipedia.org/wiki/D%C3%A9duplication). Il supporte le chiffrement et la compression.
 
-Lien github vers BorgBackup: [BorgGithub][https://github.com/borgbackup/borg]
+Lien github vers BorgBackup: [BorgGithub](https://github.com/borgbackup/borg)
 
 ## Installation
 
