@@ -9,7 +9,7 @@ Lien github vers BorgBackup: [BorgGithub](https://github.com/borgbackup/borg)
 
 #### /!\ les scripts fonctionnent aussi sous ubuntu, pour ce faire, adaptez les commandes 
 
-il faut en premier mettre en place l'environnement 
+il faut premièrement mettre en place l'environnement 
 ```shell
 sudo yum update
 sudo yum install yum-utils
