@@ -1,6 +1,6 @@
 #!/bin/bash
 
-REPO='[username]@[serveur]' #connection au serveur en ssh
+REPO='[username]@[serveur]:[chemin du dossier de sauvegarde]' #connection au serveur en ssh
 
 LIST=(
   [chemin d'un dossier a sauvergarder]
