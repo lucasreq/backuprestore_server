@@ -20,7 +20,7 @@ Installer également IUM repo:
 sudo yum install https://centos7.iuscommunity.org/ius-release.rpm
 ```
 
-Ensuite installer python3.6 et ses pack
+Ensuite installer python3.6 et ses packs
 
 ```shell
 sudo yum install python36u
