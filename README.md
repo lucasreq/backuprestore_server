@@ -40,7 +40,7 @@ Vous devez aussi installer Borgbackup sur le pc client (votre pc), faites comme 
 
 Pour automatiser la sauvegarde vous aurez besoin du script [save.sh](https://github.com/lucasreq/backuprestore_server/blob/master/scripts/save.sh).
    
-/!\ Il faudra modifier le script pour l'adapter a votre ordinateur, pour ce faire, les modification à effectuer sont entourée de [].
+/!\ Il faudra modifier le script pour l'adapter a votre ordinateur, pour ce faire, les modification à effectuer sont entourée de [ ].
 
 une fois le [script de sauvegarde](https://github.com/lucasreq/backuprestore_server/blob/master/scripts/save.sh) installer sur votre ordinateur, il faut lui donner le droit de s’exécuter pour cela utiliser la commande 
 ```shell
@@ -52,7 +52,7 @@ Vous pouvez désormais lancer le scripts manuellement ou utiliser la [crontab](h
 
 Pour récupérer vos sauvegardes vous aurez besoins du script [recup.sh](https://github.com/lucasreq/backuprestore_server/blob/master/scripts/recup.sh).
 
-/!\ Il faudra modifier le script pour l'adapter a votre ordinateur, pour ce faire, les modification à effectuer sont entourée de [].
+/!\ Il faudra modifier le script pour l'adapter a votre ordinateur, pour ce faire, les modification à effectuer sont entourée de [ ].
 
 Une fois adapter a votre ordinateur il suffira de donner les droits au scripts grâce à la commande 
 ```shell
