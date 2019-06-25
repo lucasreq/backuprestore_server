@@ -1,13 +1,13 @@
 #!/bin/bash
 
-REPO='borgback@server-borg.lucasrequena.online:/home/borgback/backup'
+REPO='[username]@[server]:[chemin du dossier de sauvegarde]'
 
-if [ -z "$1" ]
+if [ -z "$1" ] #/!\ ne pas toucher c'est la condition du if
 then
     echo "veuillez entrer une date sous la forme Jour.Mois.Annee en argument"
 else
 
-    cd /home/gab/recuperation
+    cd [chemin du dossier ou vous allez récupérer la sauvegarde]
 
     export BORG_PASSPHRASE=''
 
