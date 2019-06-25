@@ -1,10 +1,11 @@
 #!/bin/bash
 
-REPO='borgback@server-borg.lucasrequena.online:/home/borgback/backup'
+REPO='[username]@[serveur]' #connection au serveur en ssh
 
 LIST=(
-  /home/gab/documentimportant
-  /home/gab/codebombenucleaire
+  [chemin d'un dossier a sauvergarder]
+  [chemin d'un dossier a sauvergarder]
+  #/home/[username]/dossierasauvegarder
 )
 
 export BORG_PASSPHRASE=''
