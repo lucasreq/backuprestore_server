@@ -34,6 +34,45 @@ Et dernier installer borgbackup
 pip3.6 install borgbackup
 ```
 
+## Utilisation commandes Borg
+
+
+1. On commence par initier un repo
+    
+    ```shell
+    borg init --encryption=repokey /path/to/repo
+    ```
+
+2. On crée un depot de backup (le {now} sert a faire un backup avec le jours actuel)
+
+    ```shell
+    borg create /path/to/repo::{now} ~/src ~/Documents
+    ```
+    et si vous voulez faire une backup sur un repo distant il faut utiliser la commande comme cela:
+    ```shell
+    borg create user@nomdedomaine:/path/to/repo
+    ```
+
+  Cette commande permet de créer une nouvelles archive le --stats crée des statistiques sur la nouvelles archive.
+    ```shell
+    borg create --stats /path/to/repo::{now} ~/src ~/Documents
+    ```
+
+3. Cette commande permet de lister toutes les archives portant le nom "Monday" on peut aussi l'utiliser sans parametre pour tout lister
+    ```bash
+    borg list /path/to/repo::Monday
+    ``` 
+
+4. Cette commande permet de restorer toutes les backup se nommant "Monday" 
+    ```shell
+    borg extract /path/to/repo::Monday
+    ```
+
+5. Cette commande permet de supprimer les archives ici "Monday"
+    ```shell
+    borg delete /path/to/repo::Monday
+    ```
+
 ## Sauvegarde client
 
 Vous devez aussi installer Borgbackup sur le pc client (votre pc), faites comme avec le serveur si votre pc est sous Centos 7.  
